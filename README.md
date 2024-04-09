@@ -11,5 +11,10 @@ This project uses AES and BlowFish algorithms, you can select a folder or file t
 Use command
 
 ```
-py -2.7 main.py
+py -2.7 main.py 
+```
+Or
+
+```
+py -2 main.py 
 ```
