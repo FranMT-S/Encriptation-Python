@@ -1,0 +1,61 @@
+body{
+	background: #E6ECF0;
+	width:90%;
+	margin:auto;
+	min-width:600px;
+	max-width:2000px;
+}
+
+.Contein{
+	background: #A3CAE5;
+	color:white;
+	border: 10px ridge #60A7DA;
+	border-radius: 10px;
+	height: 600px;
+	width: 80%;
+	margin: auto;
+	top: 10px;
+	padding: 10px auto auto auto;
+	text-align: center;
+	position: relative;
+}
+
+.tittle{
+	background:#0077CC;
+	border: 3px groove #0077CC;
+	border-radius: 4px;
+	top: 10px;
+	margin: auto;
+	position: relative;
+	width: 70%;
+}
+
+.Message{
+	background:#0077CC;
+	border: 3px groove #0077CC;
+	border-radius: 4px;
+	top: 20px;
+	margin: 30px auto 30px auto;
+	position: relative;
+	height: 70%;
+	width: 70%;
+	font-size: 20px;
+	text-align: center; 
+}
+
+.Message p{
+	font-size: 21px;
+}
+
+.Message h2{
+	text-decoration: underline;
+	margin: auto;
+}
+
+
+.Message h2 + p{
+	border: 2px solid white;	
+	width: 80%;
+	padding: 5px;
+	margin: 25px auto 30px auto;
+}

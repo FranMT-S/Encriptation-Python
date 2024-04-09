@@ -1,0 +1,186 @@
+*{
+	font-family: Courier New;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#encryptButton{
+	background-image: url("Program/Interface/Img/Padlock.png") ;
+	background-position: center;
+}
+#encryptButton::hover{
+	background-image: url("Program/Interface/Img/Padlock_op.png") ;
+	background-position: center;
+}
+
+
+#decryptButton{
+	background-image: url("Program/Interface/Img/Padlock_unlock.png") ;
+	background-position: center;
+}
+#decryptButton::hover{
+	background-image: url("Program/Interface/Img/Padlock_unlock_op.png") ;
+	background-position: center;
+}
+
+
+#openFolderButton{
+	background-image: url("Program/Interface/Img/Folder.png");
+	background-position: center;
+}
+#openFolderButton::hover{
+	background-image: url("Program/Interface/Img/Folder_op.png") ;
+background-position: center;
+}
+#openFileButton{
+	background-image: url("Program/Interface/Img/Fileshadow.png") ;
+background-position: center;
+}
+#openFileButton::hover{
+	background-image: url("Program/Interface/Img/Fileop.png") ;
+background-position: center;
+}
+#openDestinyEncryptButton{
+	background-image: url("Program/Interface/Img/Folder.png") ;
+background-position: center;
+}
+#openDestinyEncryptButton::hover{
+	background-image: url("Program/Interface/Img/Folder_op.png") ;
+background-position: center;
+}
+
+
+#fullScreenButton{
+	background-image: url("Program/Interface/Img/Full_Screen01.png");
+	background-position: center;
+}
+#fullScreenButton::hover{
+	background-image: url("Program/Interface/Img/Full_Screen.png");
+	background-position: center;
+}
+
+#pathTreeViewLabel, 
+#passwordLabel,
+#pathDestinyLabel{
+	font-size: 20px;
+}
+
+#TreeView{
+	border: 1px solid #fff;
+}
+
+#aboutButton{
+	background-image: url("Program/Interface/Img/About 2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#aboutButton:hover{
+	background-image: url("Program/Interface/Img/About 2.0.png");
+}
+
+
+
+QMainWindow{
+	background-image: url("Program/Interface/Img/BF.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	color:white;
+}
+
+QLabel{
+	color:white;	
+}
+ QTreeView{
+border-radius: 20px;
+background: #729192;
+ }
+QPushButton, QComboBox, QLineEdit,QPlainTextEdit{
+	
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+
+QComboBox{
+	border-radius: 40px;
+	
+}
+QLineEdit:focus{
+	background: #BDC9CA;
+}
+QPushButton:hover{
+	border:2px solid #fff;  
+}
+
+QLabel{
+	font-size: 25px;
+}
+
+QComboBox:hover{
+	background: #BDC9CA;
+}
+
+QComboBox QAbstractItemView {
+	background: #BDC9CA;
+	color:white;
+}
+
+QComboBox QAbstractItemView:selected {
+	background: #BDC9CA;
+	color:white;
+}
+
+
+QScrollBar:vertical{
+	background: #CCDADE;
+	border: 1px solid #CCDADE;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	width: 15px;
+}
+
+QScrollBar:horizontal{
+	background: #CCDADE;
+	border: 1px solid #CCDADE;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	height: 15px;
+}
+
+QScrollBar:handle:vertical,
+QScrollBar:handle:horizontal{
+	background: #6B939E;
+	border: none;
+	border-radius: 20px;
+
+}
+
+QScrollBar:handle:hover:vertical,
+QScrollBar:handle:hover:horizontal{
+	background: #476269;
+}
+
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal{ 
+  border: none; background: none;
+} 
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal{
+  border: none; 
+}
+
+QTreeView::item:hover, QTreeView::item:hover:selected {
+	
+	border-radius:5px;
+	background-color:#476269;
+}
+
+QTreeView::item:selected {
+	background-color:#476269;
+}
+
+QTreeView::branch:selected {
+  background-color: #729192;
+}

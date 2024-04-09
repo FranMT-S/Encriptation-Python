@@ -1,0 +1,18 @@
+{
+  "/": [
+    {
+      "Type": true, 
+      "Name": "Test", 
+      "Child": [
+        {
+          "Type": false, 
+          "Name": "Test.txt"
+        }, 
+        {
+          "Type": false, 
+          "Name": "Texto.docx"
+        }
+      ]
+    }
+  ]
+}
